@@ -59,3 +59,19 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
+/* Alternating row colors */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+/* Row hover effect */
+tr:hover {
+    background-color: #ddd;
+}
+/* Responsive table */
+table {
+    width: 100%;
+    overflow-x: auto;
+}
